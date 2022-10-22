@@ -1,6 +1,51 @@
+.body{box-sizing: border-box;margin: 0px;padding: 0px;}
+.first{
+    background: white;
+    display: flex;
+    justify-content: center;
 
+}
 .main{
-    width: 200px;
-    height: 200px;
-    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    height:100vh;
+    color: white;
+    font-size: 20px;
+    background: white;
+}
+.dwn1 {
+    display:flex;
+    background: blue;
+    height: 28%;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.dwn2 {
+    display:flex;
+    background: white;
+    height: 23%;
+   justify-content: space-between ;
+
+}
+.dwn3 {
+    display:flex;
+   /* padding-top: 10px;*/
+    background:blue;
+    height: 43%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.type1{
+    display:flex;
+    background: blue;
+    width:31%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }

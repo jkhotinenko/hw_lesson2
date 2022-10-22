@@ -1,0 +1,45 @@
+.body{
+    ox-sizing: border-box;margin: 0px;padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background:green;
+    color:white;
+}
+
+.dv_p{
+    display:flex;
+    background:orange;
+
+    width:25%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px;
+}
+.topp{
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+    flex-direction: column;
+    background: chartreuse;
+    margin-bottom: -10px;
+    margin-top: 25%;
+}
+.midp{
+    align-items: normal;
+    font-size: 18px;
+    text-align:center;
+    background: cornflowerblue;
+}
+.dv_btn{
+    background: aqua;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn {
+    width: 70%;
+    height: 90%;
+}
